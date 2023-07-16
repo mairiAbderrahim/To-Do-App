@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+@media (max-width: 500) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+button {
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    color: white;
+    max-width: 15%;
+    margin: 5px;
+}
+
+button#add {
+    background-color: green;
+    padding: 20px;
+
+}
+
+button:hover {
+    filter: brightness(75%);
+    cursor: pointer;
+}
+input {
+    padding: 20px;
+    border-color: purple;
+    color: purple;
+    outline: none;
+    font-weight: 600;
+    width: 80%;
+}
+h2 {
+    font-weight: 800;
+}
